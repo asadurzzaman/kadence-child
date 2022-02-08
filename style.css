@@ -1,0 +1,74 @@
+/*
+Theme Name: Kadence Child
+Theme URI: https://www.kadence-theme.com/
+Template: kadence
+Author: Kadence WP
+Author URI: https://www.kadencewp.com/
+Description: Kadence Theme is a lightweight yet full featured WordPress theme for creating beautiful fast loading and accessible websites, easier than ever. It features an easy to use drag and drop header and footer builder to build any type of header in minutes. It features a full library of gorgeous starter templates that are easy to modify with our intelligent global font and color controls. With extensive integration with the most popular 3rd party plugins, you can quickly build impressive ecommerce websites, course websites, business websites, and more.
+Tags: translation-ready,two-columns,right-sidebar,left-sidebar,footer-widgets,blog,custom-logo,custom-background,custom-menu,rtl-language-support,editor-style,threaded-comments,custom-colors,featured-images,wide-blocks,full-width-template,theme-options,e-commerce
+Version: 1.1.11.1640285214
+Updated: 2021-12-23 18:46:54
+
+*/
+.woocommerce.widget_shopping_cart .buttons a:not(.checkout), .woocommerce .widget_shopping_cart .buttons a:not(.checkout) {
+	display: none;
+}
+.kadence-woo-cart-form-wrap>form {
+	width: 100%;
+}
+form.checkout .woocommerce-checkout-review-order {
+	width: 100%;
+	padding-left: 0px;
+}
+table.shop_table.woocommerce-checkout-review-order-table.hide {
+	display: none;
+}
+.cart_total {
+	text-align: center;
+	margin: 50px 0px 25px 0px;
+}
+h3#cart_order_review {
+	font-size: 40px;
+	padding-bottom: 50px;
+}
+.cart_total h4 {
+	color: #000;
+	font-size: 25px;
+}
+.cart_total h4 span {
+	color: #ff6005;
+}
+form.checkout.woocommerce-checkout h3 {
+	padding: 10px 10px;
+	background: #ff6005;
+	color: #fff;
+	margin-bottom: 15px;
+}
+.cart_total h3 {
+	background: inherit !important;
+	color: #000 !important;
+}
+.woocommerce table.shop_table th {
+	line-height: 3em;
+}
+.checkout_header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin: 25px 0;
+}
+.woocommerce table.shop_table {
+	margin: 0 -1px 4.5em 0;
+}
+/*.pricing_page_loop_start {*/
+/*	display: flex;*/
+/*	align-content: center;*/
+/*	justify-content: center;*/
+/*	align-items: center;*/
+/*}*/
+
+pre{
+	width: 100% !important;
+}
+
